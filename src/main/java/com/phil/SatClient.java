@@ -4,7 +4,9 @@ package com.phil;
 import com.phil.api.SaturdayService;
 import org.apache.thrift.TException;
 import org.apache.thrift.protocol.TBinaryProtocol;
+import org.apache.thrift.protocol.TJSONProtocol;
 import org.apache.thrift.protocol.TProtocol;
+import org.apache.thrift.protocol.TSimpleJSONProtocol;
 import org.apache.thrift.transport.TSocket;
 import org.apache.thrift.transport.TTransport;
 
@@ -27,6 +29,8 @@ public class SatClient {
 
         // 2. init Protocol
         TProtocol protocol = new TBinaryProtocol(transport);
+//        TProtocol protocol = new TJSONProtocol(transport);
+//        TProtocol protocol = new TSimpleJSONProtocol(transport);
 
         Banner.print();
 
