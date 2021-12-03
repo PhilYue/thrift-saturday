@@ -6,10 +6,8 @@
 thrift -gen java SaturdayService.thrift
 ```
 
-
-
-
 ## Run
+
 ```shell
 java -java *
 ```
@@ -19,9 +17,4 @@ java -java *
 
 - [thrift org](http://thrift.apache.org/)
 
-## Run
-
-```shell
-java -java *
-```
 
