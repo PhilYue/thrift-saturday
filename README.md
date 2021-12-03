@@ -19,3 +19,9 @@ java -java *
 
 - [thrift org](http://thrift.apache.org/)
 
+## Run
+
+```shell
+java -java *
+```
+
