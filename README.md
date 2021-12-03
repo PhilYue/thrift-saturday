@@ -5,3 +5,12 @@
 ```shell
 thrift -gen java SaturdayService.thrift
 ```
+
+## Run
+
+```shell
+java -java *
+```
+
+
+
