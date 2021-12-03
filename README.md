@@ -14,3 +14,10 @@ java -java *
 
 
 
+## Other
+
+- [thrift org](http://thrift.apache.org/)
+
+
+
+
